@@ -1,7 +1,6 @@
-class CreateCongressman < ActiveRecord::Migration
+class CreateLegislator < ActiveRecord::Migration
 	def change
-		create_table :congressmen do |c|
-			c.type 							:string
+		create_table :legislators do |c|
 			c.first_name 				:string
 			c.middle_name 			:string
 			c.last_name 				:string
@@ -27,5 +26,8 @@ class CreateCongressman < ActiveRecord::Migration
 			c.facebook_id 			:string
 			c.official_rss 			:string
 			c.birthdate 				:string
+			c.senate_class      :string
+			c.district 					:string
+		end
 	end
 end
