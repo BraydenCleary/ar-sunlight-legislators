@@ -8,27 +8,27 @@ Congressman
 	first_name
 	middle_name
 	last_name
-	name_suffix
+	name_suffix 
 	nickname
 	party
 	state
 	in_office
 	gender
-	phone
-	fax
-	website
+	phone  *
+	fax *
+	website *
 	webform
 	congress_office
-	bioguide_id
-	votesmart_id
-	fec_id
-	govtrack_id
-	crp_id
-	twitter_id
-	congresspedia_url
-	youtube_url
-	facebook_id
-	official_rss
+	bioguide_id *
+	votesmart_id *
+	fec_id *
+	govtrack_id *
+	crp_id *
+	twitter_id *
+	congresspedia_url *
+	youtube_url *
+	facebook_id *
+	official_rss *
 	birthdate
 
 Senator
