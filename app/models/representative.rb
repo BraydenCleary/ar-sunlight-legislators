@@ -1,3 +1,2 @@
 class Representative < Congressman
-
 end
